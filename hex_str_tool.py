@@ -24,11 +24,11 @@ if __name__ == '__main__':
     else:
         usage = ("filename.py -e [--encode] str"
                  "filename.py -d [--decode] hex_str")
-        parser = OptionParser(usage=usage)  #对象实体化
-        parser.description = 'JS16进制<——>字符串互转小工具'
+        parser = OptionParser(usage=usage)  
+        parser.description = 'JS16进制、字符串互转小工具'
         parser.add_option('-e','--encode',dest='encode',type=str,help="filename.py -e [--encode] str")
         parser.add_option('-d','--decode',dest='decode',type=str,help="strfilename.py -d [--decode] hex_str")
-        (option,args) =parser.parse_args()  # 把值传递给options
+        (option,args) =parser.parse_args() 
         encode = option.encode
         decode = option.decode
         if option.encode:
