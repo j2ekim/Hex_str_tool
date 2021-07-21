@@ -9,4 +9,4 @@ JS16进制、字符串互转小工具
      >> \x78\x31\x7a\x33\x74\x67\x76\x6a\x68
      
      python hex_str_tool.py -d \x78\x31\x7a\x33\x74\x67\x76\x6a\x68
-     x1z3tgvjh
+     >> x1z3tgvjh
