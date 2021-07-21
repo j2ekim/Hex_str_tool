@@ -3,4 +3,8 @@ js16进制跟字符串互转的时候是在是太麻烦了，干脆写个备用
 
 JS16进制、字符串互转小工具
 
-Usage: python filename.py -e [--encode] str -d [--decode] hex_str
+     Usage: python filename.py -e [--encode] str -d [--decode] hex_str
+     python hex_str_tool.py -e x1z3tgvjh7wcezghcwitpkkw9nfd32.burpcollaborator.net
+      \x78\x31\x7a\x33\x74\x67\x76\x6a\x68\x37\x77\x63\x65\x7a\x67\x68\x63\x77\x69\x74\x70\x6b\x6b\x77\x39\x6e\x66\x64\x33\x32\x2e\x62\
+      x75\x72\x70\x63\x6f\x6c\x6c\x61\x62\x6f\x72\x61\x74\x6f\x72\x2e\x6e\x65\x74
+
