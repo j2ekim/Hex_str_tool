@@ -10,3 +10,9 @@ js16进制跟字符串互转的时候是在是太麻烦了，干脆写个备用
      
      python hex_str_tool.py -d \x78\x31\x7a\x33\x74\x67\x76\x6a\x68
      >> x1z3tgvjh
+
+
+# 应用场景
+### 用友NC XbrlPersistenceServlet反序列化
+
+### 用友NC FileReceiveServlet任意文件上传
