@@ -15,7 +15,7 @@ def hex_to_str(s):
         s=s.replace("\\x","").replace("\\","").strip()
         strs=binascii.unhexlify(s)
         print(strs.decode('utf-8'))
-    except UnicodeDecodeError as e:
+    except:
         print(strs)
 
 if __name__ == '__main__':
